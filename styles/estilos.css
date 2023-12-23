@@ -1,0 +1,160 @@
+:root{
+    --main-bg-color: #050404;
+    --h1-color: #ffcd26;
+    --h2-color: #ffa51d;
+    --h3-color: #ff8216;
+    --h4-color: #7c7c84;
+    --h5-color: #ff3131;
+    --h6-color: #7c8884;
+    --p-color:#603e28; 
+}
+.bg-color{
+    color: var(--main-bg-color);
+}
+.p-color{
+    color: var(--p-color)
+}
+.bg-color{
+    color: var(--main-bg-color)
+}
+.h1-color{
+    color: var(--h1-color)
+}
+.h2-color {
+    color:var(--h2-color)
+}
+.h3-color {
+    color: var(--h3-color)
+}
+.h4-color {
+    color: var(--h4-color)
+}
+.h5-color {
+    color: var(--h5-color)
+}
+.h6-color {
+    color: var(--h6-color)
+}
+@import url(https://fonts.googleapis.com/css2?family=Blinker:wght@700&display=swap);
+@import url(https://db.onlinewebfonts.com/c/07e0cde7ae44d7e3cdc61a55fe9af110?family=Blanka);
+@import url(https://db.onlinewebfonts.com/c/33b3ddf9911274703552df95bc1b60de?family=Bauhaus+Bold+BT);
+@font-face {
+    font-family: "Blanka";
+    src: url("https://db.onlinewebfonts.com/t/07e0cde7ae44d7e3cdc61a55fe9af110.eot");
+    src: url("https://db.onlinewebfonts.com/t/07e0cde7ae44d7e3cdc61a55fe9af110.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/07e0cde7ae44d7e3cdc61a55fe9af110.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/07e0cde7ae44d7e3cdc61a55fe9af110.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/07e0cde7ae44d7e3cdc61a55fe9af110.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/07e0cde7ae44d7e3cdc61a55fe9af110.svg#Blanka")format("svg");
+}
+@font-face {
+    font-family: "Bauhaus Bold BT";
+    src: url("https://db.onlinewebfonts.com/t/33b3ddf9911274703552df95bc1b60de.eot");
+    src: url("https://db.onlinewebfonts.com/t/33b3ddf9911274703552df95bc1b60de.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/33b3ddf9911274703552df95bc1b60de.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/33b3ddf9911274703552df95bc1b60de.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/33b3ddf9911274703552df95bc1b60de.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/33b3ddf9911274703552df95bc1b60de.svg#Bauhaus Bold BT")format("svg");
+}
+body {
+    background-color: var(--main-bg-color);
+}
+h1 { font-family: "Blanka";
+    color: var(--h1-color);
+    font: size 2.5em;
+}
+h2 {
+    color: var(--h2-color);
+    font-size: 2em;
+}
+h3 {
+    color: var(--h3-color);
+    font-size: 1.75em;
+}
+h4 {
+    color: var(--h4-color);
+    font-size: 1.5em;
+}
+h5 {
+    color: var(--h5-color);
+    font: size 1.25em; 
+}
+h6 {
+    color: var(--h6-color);
+    font-size: 1em;
+}
+p { 
+    font-family:"Bauhaus Bold BT";
+    color: var(--p-color);
+    font-size: 1.50em;
+}
+h2,h3, h4, h5, h6 {
+    font-family: 'Blinker',sans-serif;
+    padding: 1em;
+}
+.h1 .h2 .h3 .h4 .h5 .h6:hover {
+    opacity: 0.1;
+        filter: alpha(opacity=100);
+        zoom: 1;
+}
+.barra-heaed {
+    display: block;
+    text-align: center;
+    color: var(--h1-color);
+}
+.img-heaed {
+    width: fit-content;
+    height: auto;
+    background-position: absolute;
+
+}
+nav {
+    background-color: var(--h4-color);
+    text-decoration: var(--p-color);
+}
+.nav-position {
+    text-align: center;
+}
+.nav-link {
+    font-family: "Blinker";
+    font-size: 1.75em;
+    color: var(--p-color);
+    font-weight: bolder;
+}
+span {
+    font-family:"Bauhaus Bold BT";
+    font-size:2em;
+    font-weight: bolder;
+    color: var(--h5-color);
+}
+@media only screen and (max-width: 1320px) {
+    #desaparecer {
+        display: none;
+    }
+}
+#redes-footer {
+    background-color: var(--h4-color);
+}
+#color-creaciones {
+    background-color: var(--p-color);
+}
+.slider-testimonial, img {
+    border-radius: 2rem;
+}
+.dropdown-menu {
+    color: white;
+    background-color: var(--h4-color);
+}
+.clearfix> img {
+    width: 56em;
+    height: 32em;
+}
+.carousel-caption> h5 {
+    color: #050404;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.carousel-caption> p {
+    color: darkmagenta;
+    font-size: 1.75rem;
+}
